@@ -1,0 +1,9 @@
+{
+  "code" : "liquichain-cloudmessaging",
+  "description" : "Send CloudMessaging message via notification",
+  "license" : "GPL",
+  "currentVersion" : "0.0.1",
+  "isInDraft" : true,
+  "moduleDependencies" : [ ],
+  "moduleFiles" : [ ]
+}
