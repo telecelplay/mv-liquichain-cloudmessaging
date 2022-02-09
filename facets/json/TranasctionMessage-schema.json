@@ -1,0 +1,43 @@
+{
+    "storages": ["SQL"],
+    "default": "Message for notification",
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "id": "TranasctionMessage",
+    "title": "Message",
+    "type": "object",
+    "properties": {
+        "body": {
+            "storages": ["SQL"],
+            "nullable": true,
+            "description": "Body of the message",
+            "readOnly": false,
+            "versionable": false,
+            "id": "CE_TranasctionMessage_body",
+            "title": "TranasctionMessage.body",
+            "type": "string",
+            "maxLength": 255
+        },
+        "title": {
+            "storages": ["SQL"],
+            "nullable": true,
+            "description": "Title of the message",
+            "readOnly": false,
+            "versionable": false,
+            "id": "CE_TranasctionMessage_title",
+            "title": "TranasctionMessage.title",
+            "type": "string",
+            "maxLength": 255
+        },
+        "userId": {
+            "storages": ["SQL"],
+            "nullable": true,
+            "description": "Recipient User Id",
+            "readOnly": false,
+            "versionable": false,
+            "id": "CE_TranasctionMessage_userId",
+            "title": "TranasctionMessage.userId",
+            "type": "string",
+            "maxLength": 50
+        }
+    }
+}
