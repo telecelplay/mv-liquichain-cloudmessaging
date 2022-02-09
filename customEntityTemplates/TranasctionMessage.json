@@ -1,0 +1,11 @@
+{
+  "code" : "TranasctionMessage",
+  "name" : "Message",
+  "description" : "Message for notification",
+  "availableStorages" : [ "SQL" ],
+  "sqlStorageConfiguration" : {
+    "storeAsTable" : true
+  },
+  "samples" : [ ],
+  "audited" : false
+}
